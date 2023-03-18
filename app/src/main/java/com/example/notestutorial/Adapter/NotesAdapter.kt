@@ -78,7 +78,7 @@ class NotesAdapter (private val context : Context, val listener: NotesClickListe
     fun randomColor() : Int {
 
         val list = ArrayList<Int>()
-            list.add(R.color.NoteColor1)
+        list.add(R.color.NoteColor1)
         list.add(R.color.NoteColor2)
 
         list.add(R.color.NoteColor3)
